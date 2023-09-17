@@ -48,8 +48,8 @@ sdlFlag=-framework SDL2 -I$(fwkPath)SDL2.framework/Headers/
 sdlttfFlag=-framework SDL2_ttf -I$(fwkPath)SDL2_ttf.framework/Headers/
 
 target:
-    gcc src/game.c -o $(id) $(incFlag) $(fwkFlag) $(sdlFlag) $(sdlttfFlag)
-    mv $(id) out/
+	gcc src/game.c -o $(id) $(incFlag) $(fwkFlag) $(sdlFlag) $(sdlttfFlag)
+	mv $(id) out/
 ~~~
 
 Then run ./out/game.exe and the project should run !
