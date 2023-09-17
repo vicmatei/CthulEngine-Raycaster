@@ -39,31 +39,16 @@ You just need to link the SDL2 library and include the (ProjectRoot/inc/)
 directory. That's it. This is just easier and requires minimum modifications.
 
 ~~~Makefile
-# EXAMPLE
-
-# name you want to give to the executable
 id=game.exe
-
-# path to where you keep your frameworks (usualy in the ~/Library/Frameworks/)
 fwkPath=/Users/User/Library/Frameworks/
 
-# FLAGS
-# project include folder path
 incFlag=-I./inc/
-# indicate the framework location
 fwkFlag=-F$(fwkPath)
-# add the SDL2 framework and include it
 sdlFlag=-framework SDL2 -I$(fwkPath)SDL2.framework/Headers/
-# add the SDL2_ttf framework and include it
 sdlttfFlag=-framework SDL2_ttf -I$(fwkPath)SDL2_ttf.framework/Headers/
 
-# BULD TARGET
 target:
-    #clean up
-    clear
-    # enter command
     gcc src/game.c -o $(id) $(incFlag) $(fwkFlag) $(sdlFlag) $(sdlttfFlag)
-    # move the executable to the output folder
     mv $(id) out/
 ~~~
 
