@@ -38,6 +38,8 @@ You don't have to follow this example exactly.
 You just need to link the SDL2 library and include the (ProjectRoot/inc/)
 directory. That's it. This is just easier and requires minimum modifications.
 
+DON'T FORGET TO REWRITE THE PATH SO THAT IT CORRESPONDS THIS IS JUST AN EXAMPLE !
+
 ~~~Makefile
 id=game.exe
 fwkPath=/Users/User/Library/Frameworks/
