@@ -31,6 +31,7 @@ https://github.com/libsdl-org/SDL_ttf/releases
 Same procedure: file with '.dmg' extension
 and stored in the ('~/Library/Frameworks/') directory.
 
+### Create ('$ROOT/out') directory.
 
 ### Project Makefile
 You don't have to follow this example exactly.
