@@ -17,7 +17,7 @@ It is used to develop and test stuff for my future engine, so consider like a
 
 ## SETUP
 
-### Window (IN DEV)
+### Windows (IN DEV)
 
 ### MacOS
 
