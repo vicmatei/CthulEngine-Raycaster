@@ -17,6 +17,8 @@ It is used to develop and test stuff for my future engine, so consider like a
 
 ## SETUP
 
+### Window (IN DEV)
+
 ### MacOS
 
 ### SDL2 Setup
@@ -55,3 +57,5 @@ target:
 ~~~
 
 Then run ./out/game.exe and the project should run !
+
+### Linux (IN DEV)
