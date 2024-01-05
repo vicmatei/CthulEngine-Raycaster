@@ -1,5 +1,8 @@
 # CthulEngine Demo
 
+## WARNING !
+The development of the engine was halted and will not receive any updates.
+
 ## TABLE OF CONTENTS
 1. Description
 2. Setup
